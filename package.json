@@ -1,0 +1,30 @@
+{
+  "name": "bandung-juara",
+  "version": "1.0.0",
+  "description": "A simple PWA project. Presented by Google Developers Kejar Bandung",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run-dev",
+    "build-css": "node-sass --include-path scss assets/scss/style.scss assets/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agunbuhori/mws-bandung-juara.git"
+  },
+  "keywords": [
+    "Google",
+    "Developers",
+    "Kejar",
+    "Bandung"
+  ],
+  "author": "Agun Buhori",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agunbuhori/mws-bandung-juara/issues"
+  },
+  "homepage": "https://github.com/agunbuhori/mws-bandung-juara#readme",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="assets/icons/icon-72x72.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#151a1d">
+    <title>Bandung Weather</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/ionicons@4.4.6/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="weather-wrapper">
+        <div class="header">
+            <span id="title">Cuaca Bandung Ayeuna</span>
+        </div>
+
+        <div class="content">
+            <div class="weather-status">
+                <div class="today">
+                    <span id="today">Senin, 20 November 2018</span>
+                </div>
+                <img id="image" src="assets/images/weather/svg/clouds-1.svg" alt="Sun">
+                <span class="degree" id="degree"></span>
+                <span id="description"></span>
+            </div>
+
+            <div class="footer">
+                <span id="date"></span>
+                <span>By <a href="https://developer.yahoo.com/weather/">Yahoo! Weather</a></span>
+            </div>
+
+            <div class="days-status">
+                <div class="day" id="sun">
+                    <span>MIN</span>
+                    <img src="assets/images/weather/svg/clouds-1.svg">
+                    <span>30°C</span>
+                </div>
+                <div class="day" id="mon">
+                    <span>SEN</span>
+                    <img src="assets/images/weather/svg/clouds-1.svg">
+                    <span>30°C</span>
+                </div>
+                <div class="day" id="tue">
+                    <span>SEL</span>
+                    <img src="assets/images/weather/svg/clouds-1.svg">
+                    <span>30°C</span>
+                </div>
+                <div class="day" id="wed">
+                    <span>RAB</span>
+                    <img src="assets/images/weather/svg/clouds-1.svg">
+                    <span>30°C</span>
+                </div>
+                <div class="day" id="thu">
+                    <span>KAM</span>
+                    <img src="assets/images/weather/svg/clouds-1.svg">
+                    <span>30°C</span>
+                </div>
+                <div class="day" id="thu">
+                    <span>KAM</span>
+                    <img src="assets/images/weather/svg/clouds-1.svg">
+                    <span>30°C</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="menu-navigation"></div>
+    <script src="assets/js/weather.js"></script>
+</body>
+</html>

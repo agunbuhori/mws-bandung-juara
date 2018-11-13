@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#151a1d">
+    <link rel="shortcut icon" href="assets/icons/icon-72x72.png" type="image/x-icon">
+    <title>Lokasi Populer Bandung</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/ionicons@4.4.6/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/MarkerCluster.css' rel='stylesheet' />
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/MarkerCluster.Default.css' rel='stylesheet' />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        </style>
+</head>
+
+<body>
+    <div id="places-wrapper">
+        <div class="header">
+            <span id="title">Lokasi Populer Bandung</span>
+        </div>
+        <div class="content">
+            <div id="bandung-map" class="map"></div>
+            <button class="showmodal" onclick="showModal()">
+                <i class="ion ion-md-search"></i>
+            </button>
+        </div>
+        <div class="desc">
+            <div class="photo">
+                <img id="photo" src="http://1.bp.blogspot.com/-tOoGP2Sgv34/VmnnesPYvDI/AAAAAAAAn3Y/o5bGdGG4Nh0/s1600/wisata%2Bgedung%2Bsate%2Bbandung%2B1.jpg">
+            </div>
+            <div class="description">
+                <span id="place-name">Gedung Sate</span>
+                <span id="address">Jl. Diponegoro No.22, Citarum, Bandung Wetan, Kota Bandung, Jawa Barat 40115</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" style="visibility: hidden">
+        <div id="lightbox" class="lightbox">
+            <div class="header">
+                <span>Cari Lokasi</span>
+            </div>
+            <div class="content">
+
+            </div>
+        </div>
+    </div>
+    
+    <div id="menu-navigation"></div>
+    <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/leaflet.markercluster.js'></script>
+    <script src="assets/js/places.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bandara Husein Sastranegara",
+        "marker-color": "#0a7e16",
+        "marker-size": "large",
+        "marker-symbol": "airport",
+        "address": "Jl. Pajajaran No.156, Husen Sastranegara, Cicendo, Kota Bandung, Jawa Barat 40174",
+        "photo": "https://netmobius.freetls.fastly.net/images-bdo/bandung_airport2.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.57709503173827,
+          -6.902569045647406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Masjid Raya Bandung",
+        "marker-color": "#347ad8",
+        "marker-size": "large",
+        "marker-symbol": "religious-muslim",
+        "address": "Jl. Dalem Kaum No.14, Balonggede, Regol, Kota Bandung, Jawa Barat 40251",
+        "photo": "https://i1.wp.com/dolandolen.com/wp-content/uploads/2016/01/Masjid-Agung-Bandung.jpg?w=860&ssl=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.60653495788574,
+          -6.922081408710182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gedung Sate",
+        "marker-color": "#347ad8",
+        "marker-size": "large",
+        "marker-symbol": "museum",
+        "address": "Jl. Diponegoro No.22, Citarum, Bandung Wetan, Kota Bandung, Jawa Barat 40115",
+        "photo": "https://www.scout.id/wp-content/uploads/2017/08/Gedung-Sate-Bandung.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6166213,
+          -6.9024812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stasiun Bandung",
+        "marker-color": "#0a7e16",
+        "marker-size": "large",
+        "marker-symbol": "rail-metro",
+        "address": "Jl. Stasiun Barat, Kb. Jeruk, Andir, Kota Bandung, Jawa Barat 40181",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Stasiun_Kereta_Api_Bandung.jpg/600px-Stasiun_Kereta_Api_Bandung.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6002113,
+          -6.9126155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Institut Teknologi Bandung",
+        "marker-color": "#edbf1a",
+        "marker-size": "large",
+        "marker-symbol": "college",
+        "address": "Jl. Ganesha No.10, Lb. Siliwangi, Coblong, Kota Bandung, Jawa Barat 40132",
+        "photo": "https://infobekasi.co.id/wp-content/uploads/2016/02/ITB.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.61022567749023,
+          -6.8904692721852046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lapangan Tegalega",
+        "marker-color": "#347ad8",
+        "marker-size": "large",
+        "marker-symbol": "minefield",
+        "address": "Jl. Otto Iskandar Dinata No.592, Ciateul, Regol, Kota Bandung, Jawa Barat 40242",
+        "photo": "https://aishasnews.files.wordpress.com/2017/08/1-instagram.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.60481834411621,
+          -6.934947198174836
+        ]
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jalan Braga",
+        "marker-color": "#347ad8",
+        "marker-size": "large",
+        "marker-symbol": "museum",
+        "address": "Jln. Braga 1-133, Sumurbandung Kota Bandung Jawa Barat",
+        "photo": "https://sebandung.com/wp-content/uploads/2014/08/Kawasan-Fave-Hotel-Braga-Bandung.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6094102859497,
+          -6.917863739107462
+        ]
+      }
+    }
+
+  ]
+}
